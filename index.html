@@ -1,32 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+     <head>
     <meta charset="utf-8">
     <title>Comida típica</title>
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fafafa;
-        }
-        h1 {
-            text-align: center;
-        }
         img {
-            display: block;
-            width: 350px;
-            height: 250px;
+            width: 320px;
+            height: 220px;
             object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
         }
-        .center {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        table {
-            text-align: center;
-            border-collapse: collapse;
-        }
-        td {
-            padding: 10px;
+
+        img:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
         }
     </style>
 </head>
