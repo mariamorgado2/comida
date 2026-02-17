@@ -1,38 +1,105 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset = 'utf-8'>
-		<title>España</title>
-	</head>
-<style>
-	img{
-		display: block;
-		width: 70px;
-		height:	55px;
-		}
-	.center{
-		margin-left: auto;
-		margin-right: auto;
-		}
-</style>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Comida típica de España</title>
+
+    <style>
+        body{
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 30px;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 2.4rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        h2{
+            text-align: center;
+            color: #555;
+            margin-bottom: 40px;
+        }
+
+        .contenedor{
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+
+        .plato{
+            margin-bottom: 40px;
+        }
+
+        .plato img{
+            width: 100%;
+            border-radius: 12px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            object-fit: cover;
+            height: 300px;
+        }
+
+        .volver{
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            color: #0077cc;
+        }
+
+        .volver:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
 
 <body>
 
-<i><h1><center>España</center></h1></i>
+<h1>Comida típica de España</h1>
+<h2>Platos más representativos</h2>
 
-<center><img src="../figuras/españa.png" alt="España" style="width:350px;height:250px;"></center>
+<div class="contenedor">
 
-<i><h2><center>Introducción</center></h2></i>
-<center>La gastronomía española es famosa por su diversidad regional, basada en la dieta mediterránea con aceite de oliva, mariscos, jamón ibérico y guisos contundentes. Destacan la paella valenciana, tortilla de patatas, gazpacho andaluz, pulpo a la gallega, croquetas, jamón ibérico, fabada asturiana y patatas bravas, convirtiéndola en una experiencia culinaria rica y variada. 
-Aquí están los platos más destacados por categoría:
-Platos Icónicos y Nacionales
-Tortilla de patatas: Huevos, patatas y opcionalmente cebolla.
-Paella: Arroz con carne, mariscos o verduras, siendo la valenciana la más famosa.
-Jamón Ibérico: Producto estrella de la gastronomía.
-Croquetas: Especialmente las de jamón, muy cremosas.
-Gazpacho y Salmorejo: Sopas frías de tomate típicas de Andalucía, ideales para verano. </center>
+    <div class="plato">
+        <h3>Paella</h3>
+        <img src="../figuras/paella.png" alt="Paella">
+        <p>
+            La paella es uno de los platos más conocidos de España, originario de Valencia.
+            Se prepara con arroz, verduras y diferentes carnes o mariscos.
+        </p>
+    </div>
 
+    <div class="plato">
+        <h3>Tortilla de patatas</h3>
+        <img src="../figuras/tortilla.png" alt="Tortilla de patatas">
+        <p>
+            Un clásico español hecho con huevos, patatas y, según gustos, cebolla.
+        </p>
+    </div>
 
+    <div class="plato">
+        <h3>Jamón ibérico</h3>
+        <img src="../figuras/jamon.png" alt="Jamón ibérico">
+        <p>
+            Considerado una joya gastronómica, curado durante meses y con un sabor único.
+        </p>
+    </div>
+
+</div>
+
+<a class="volver" href="../index.html">← Volver al inicio</a>
+
+</body>
+</html>
 <table class="cuadro">
 <tr>
   <td>
