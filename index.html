@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8">
-    <title>Comida típica</title>
+    <meta charset="UTF-8">
+    <title>Comida típica del mundo</title>
 
     <style>
-        body {
+        body{
             font-family: "Segoe UI", Arial, sans-serif;
             background: #f4f4f4;
             margin: 0;
             padding: 30px;
         }
 
-        h1 {
+        h1{
             text-align: center;
             font-size: 2.4rem;
             color: #333;
@@ -20,7 +20,7 @@
         }
 
         /* Contenedor de tarjetas */
-        .grid {
+        .grid{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 30px;
@@ -29,21 +29,23 @@
         }
 
         /* Tarjeta individual */
-        .card {
+        .tarjeta{
             background: white;
             border-radius: 15px;
             padding: 15px;
             text-align: center;
             box-shadow: 0 4px 15px rgba(0,0,0,0.15);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: black;
         }
 
-        .card:hover {
+        .tarjeta:hover{
             transform: translateY(-10px);
             box-shadow: 0 10px 25px rgba(0,0,0,0.25);
         }
 
-        .card img {
+        .tarjeta img{
             width: 100%;
             height: 200px;
             object-fit: cover;
@@ -51,12 +53,11 @@
             transition: transform 0.4s ease;
         }
 
-        /* Movimiento de la imagen al pasar el ratón */
-        .card img:hover {
+        .tarjeta img:hover{
             transform: scale(1.07);
         }
 
-        .card p {
+        .tarjeta p{
             font-size: 1.3rem;
             margin-top: 12px;
             color: #444;
@@ -65,40 +66,42 @@
 </head>
 
 <body>
-<h1>Comida típica del mundo</h1>
 
+<h1>Comida típica del mundo</h1>
 
 <div class="grid">
 
-<a href="HTML/espana.html" class="tarjeta">
-  <img src="figuras/espana.png" alt="España">
-  <p><b>España</b></p>
-</a>
+    <a href="HTML/espana.html" class="tarjeta">
+        <img src="figuras/espana.png" alt="España">
+        <p><b>España</b></p>
+    </a>
 
-<a href="HTML/italia.html" class="tarjeta">
-  <img src="figuras/italia.png" alt="Italia">
-  <p><b>Italia</b></p>
-</a>
+    <a href="HTML/italia.html" class="tarjeta">
+        <img src="figuras/italia.png" alt="Italia">
+        <p><b>Italia</b></p>
+    </a>
 
-<a href="HTML/japon.html" class="tarjeta">
-  <img src="figuras/japon.png" alt="Japón">
-  <p><b>Japón</b></p>
-</a>
+    <a href="HTML/japon.html" class="tarjeta">
+        <img src="figuras/japon.png" alt="Japón">
+        <p><b>Japón</b></p>
+    </a>
 
-<a href="HTML/argentina.html" class="tarjeta">
-  <img src="figuras/argentina.png" alt="Argentina">
-  <p><b>Argentina</b></p>
-</a>
+    <a href="HTML/argentina.html" class="tarjeta">
+        <img src="figuras/argentina.png" alt="Argentina">
+        <p><b>Argentina</b></p>
+    </a>
 
-<a href="HTML/lituania.html" class="tarjeta">
-  <img src="figuras/lituania.png" alt="Lituania">
-  <p><b>Lituania</b></p>
-</a>
+    <a href="HTML/lituania.html" class="tarjeta">
+        <img src="figuras/lituania.png" alt="Lituania">
+        <p><b>Lituania</b></p>
+    </a>
 
-<a href="HTML/mexico.html" class="tarjeta">
-  <img src="figuras/mexico.png" alt="México">
-  <p><b>México</b></p>
-</a>
+    <a href="HTML/mexico.html" class="tarjeta">
+        <img src="figuras/mexico.png" alt="México">
+        <p><b>México</b></p>
+    </a>
+
+</div>
 
 </body>
 </html>
